@@ -1,0 +1,20 @@
+# Homework 8
+---
+- hostname: R1
+  loopback_ip: 172.17.1.1
+  asn: 100
+  banner: |
+   this is going
+   buffer
+   to be a
+   buffer
+   six line
+   banner
+  interfaces:
+    - {name: Eth0, address: 172.17.5.1/24}
+    - {name: Eth1, address: 172.17.6.1/24}
+  neighbors:
+    - description: R2
+      address: 172.17.1.2
+      asn: 200
+      prefixes: [172.17.0.0/16, 172.18.0.0/16]
