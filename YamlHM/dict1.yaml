@@ -1,0 +1,13 @@
+# Homework 1
+
+---
+hostname: R1
+loopback_ip: 192.168.1.1
+maxint: 50
+banner: |
+   This will be
+   a 6 line banner
+   with all newlines
+   being preserved
+   for the
+   hands-on exercises.
