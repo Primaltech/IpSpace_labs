@@ -1,1 +1,1 @@
-Ansible assignments frm class.
+Ansible assignments from class.
