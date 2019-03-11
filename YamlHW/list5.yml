@@ -1,0 +1,8 @@
+# Homework 5
+---
+- username: user1
+  password: password1
+- username: user2
+- password: password2
+  privilege: 15
+  autocommand: "show ip int brief"
